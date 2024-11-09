@@ -15,14 +15,14 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94768387659",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
-  ANTI_LINK: process.env.ANTILINK || "true",
+  ANTI_LINK: process.env.ANTILINK || "false",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
   ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
